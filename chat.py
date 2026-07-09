@@ -2,7 +2,7 @@ import gradio as gr
 import requests
 import os
 
-FASTAPI_URL = "https://chatapp-backend-1-j75o.onrender.com"
+FASTAPI_URL = "https://chatapp-backend-1-j75o.onrender.com/chat"
 
 def chat(message):
     response = requests.post(
